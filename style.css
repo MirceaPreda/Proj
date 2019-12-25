@@ -139,19 +139,71 @@ h4 {
 	font-size: 110%;
 }
 
-.container {
-    width:100%;
-    min-width: 100%;
-    max-width: 1200px;
-}
-
 .container-left {
-    width: 33.33%;
-    float: left;
+    width: 25%;
+	float: left;
 }
-
 
 .container-right {
-    width: 33.33%;
+    width: 25%;
     float: right;
 }
+
+.container-center {
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.container-page {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-container {
+	width: 100%;
+	float: left;
+}
+
+.inpage-left{
+	width: 30%;
+	float: left;
+}
+
+.inpage-right {
+	width: 70%;
+	float: right;
+}
+
+.header-red {
+	text-align: center;
+	background: red;
+}
+
+.header-grey {
+	text-align: right;
+	background: lightgrey;
+}
+
+.header-purple {
+	text-align: center;
+	background: purple;
+}
+
+.input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.container1 {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  }
