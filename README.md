@@ -9,8 +9,8 @@ ro.html -> final model
 
 tryout.html -> demo
 
- check: Finish skeleton
- check: Add relevant info
+check: Finish skeleton
+
+check: Add relevant info
  
- Next in order:
- - Stylize
+check: Stylize
